@@ -1,0 +1,99 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(255, 223, 133);
+}
+
+.container {
+  
+    background-color: rgb(12, 29, 37);
+    text-align: center;
+    padding: 20px;
+    color: rgb(254, 254, 254);
+}
+
+h3 {
+  font-size: 50px;
+  color: rgb(218,165,32) ;
+  font-family: gabriola ;
+}
+h1, h2 {
+text-align: center;
+  font-size: 50px;
+  color: rgb(12, 29, 37) ;
+  font-family: gabriola ;
+
+}
+
+button {
+  font-size: 30px;
+  background-color:rgb(243, 90, 14);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+#numero {
+  font-size: 40px;
+  padding: 0 50px;
+}
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+	border-top: 3px solid #ffb04f; /* primary-color */
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: rgb(12, 29, 37);
+	color:rgb(255, 255, 255);
+}
+
+footer a{
+	color:#F0776C; /* secondary-color*/
+}
+
+footer a:hover{
+	color:#FF968C; /* light seconday color*/	
+}
+
+footer .credits {
+	max-width:300px;
+	margin:auto;
+}
+
+footer .credits a img {
+  -o-transition: opacity .2 ease-in;
+  -ms-transition: opacity .2s ease-in;
+  -moz-transition: opacity .2s ease-in;
+  -webkit-transition: opacity .2s ease-in;
+  transition: opacity .2s ease
+}
+
+footer .credits a img:hover {
+	opacity:0.6;
+}
+
+.imagegithub { 
+  width: 27px; 
+}
+.imagefirmafooter{
+  width:100px ;
+}
+.imageistagram{
+  width: 50px;
+}
+.imagefacebook{
+  width: 30px;
+}
+.imagelogo{
+  width:250px;
+  height:30px;
+}
